@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Dr. Babita Kemiya — Physiotherapy & Rehabilitation</title>
+<meta name="description" content="Dr. Babita Kemiya PT (BPT) — Expert Physiotherapy services. Home visits available. Specializing in disc prolapse, sciatica, arthritis, sports injuries and more." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ====== Custom Cursor ====== -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- ====== Loading Screen ====== -->
+<div class="loader" id="loader">
+  <div class="loader-content">
+    <div class="loader-pulse">
+      <i class="fas fa-heartbeat"></i>
+    </div>
+    <p>Dr. Babita Kemiya</p>
+    <span>Physiotherapy & Rehabilitation</span>
+  </div>
+</div>
+
+<!-- ====== Animated Background ====== -->
+<div class="bg-blob blob-1"></div>
+<div class="bg-blob blob-2"></div>
+<div class="bg-blob blob-3"></div>
+<div class="grid-overlay"></div>
+
+<!-- ====== Navigation ====== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo">
+      <div class="logo-icon">
+        <i class="fas fa-heart-pulse"></i>
+      </div>
+      <div class="logo-text">
+        <span class="logo-name">Dr. Babita Kemiya</span>
+        <span class="logo-sub">PT (BPT) · Physiotherapist</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#contact" class="nav-cta">
+      <i class="fas fa-calendar-check"></i>
+      <span>Book Now</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ====== Hero Section ====== -->
+<section class="hero" id="home">
+  <div class="hero-decorations">
+    <div class="floating-icon icon-1"><i class="fas fa-stethoscope"></i></div>
+    <div class="floating-icon icon-2"><i class="fas fa-bone"></i></div>
+    <div class="floating-icon icon-3"><i class="fas fa-hand-holding-medical"></i></div>
+    <div class="floating-icon icon-4"><i class="fas fa-dumbbell"></i></div>
+    <div class="floating-icon icon-5"><i class="fas fa-spa"></i></div>
+  </div>
+
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="dot-pulse"></span>
+        <span>Home Visits Available · Available 7 Days</span>
+      </div>
+
+      <h1 class="hero-title reveal">
+        Healing Touch.<br/>
+        <span class="text-gradient">Restoring Movement.</span><br/>
+        Renewing Lives.
+      </h1>
+
+      <p class="hero-subtitle reveal">
+        Personalised physiotherapy and rehabilitation by <strong>Dr. Babita Kemiya</strong> — combining advanced manual therapy, evidence-based techniques and compassionate care to help you live pain-free.
+      </p>
+
+      <div class="hero-cta reveal">
+        <a href="#contact" class="btn btn-primary">
+          <span>Book Consultation</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="tel:+917697049341" class="btn btn-ghost">
+          <i class="fas fa-phone"></i>
+          <span>+91 76970 49341</span>
+        </a>
+      </div>
+
+      <div class="hero-trust reveal">
+        <div class="trust-item">
+          <div class="trust-num" data-count="100">0</div>
+          <span>Happy Patients</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-num" data-count="11">0</div>
+          <span>Specialities</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-num" data-count="4">0</div>
+          <span>Years Experience</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-image-wrapper">
+        <div class="image-glow"></div>
+        <div class="image-frame">
+          <img src="3.jpg" alt="Dr. Babita Kemiya" class="hero-img" />
+          <div class="image-overlay"></div>
+        </div>
+
+        <div class="floating-card card-rating">
+          <div class="card-icon"><i class="fas fa-star"></i></div>
+          <div>
+            <div class="card-num">4.9 / 5</div>
+            <div class="card-label">Patient Rating</div>
+          </div>
+        </div>
+
+        <div class="floating-card card-cert">
+          <div class="card-icon green"><i class="fas fa-certificate"></i></div>
+          <div>
+            <div class="card-num">BPT Certified</div>
+            <div class="card-label">Licensed Practitioner</div>
+          </div>
+        </div>
+
+        <div class="floating-card card-home">
+          <div class="card-icon orange"><i class="fas fa-house-chimney-medical"></i></div>
+          <div>
+            <div class="card-num">Home Visits</div>
+            <div class="card-label">Available Daily</div>
+          </div>
+        </div>
+
+        <svg class="orbit" viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="98" fill="none" stroke="rgba(13,148,136,0.3)" stroke-width="1" stroke-dasharray="4 8"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ====== Marquee Strip ====== -->
+<section class="marquee-section">
+  <div class="marquee">
+    <div class="marquee-track">
+      <span><i class="fas fa-shield-heart"></i> Disc Prolapse Care</span>
+      <span><i class="fas fa-bone"></i> Sciatica Relief</span>
+      <span><i class="fas fa-hand-holding-heart"></i> Bell's Palsy</span>
+      <span><i class="fas fa-running"></i> Sports Injury</span>
+      <span><i class="fas fa-spa"></i> Arthritis Therapy</span>
+      <span><i class="fas fa-baby"></i> Cerebral Palsy</span>
+      <span><i class="fas fa-house-medical"></i> Home Visits</span>
+      <span><i class="fas fa-shield-heart"></i> Disc Prolapse Care</span>
+      <span><i class="fas fa-bone"></i> Sciatica Relief</span>
+      <span><i class="fas fa-hand-holding-heart"></i> Bell's Palsy</span>
+      <span><i class="fas fa-running"></i> Sports Injury</span>
+      <span><i class="fas fa-spa"></i> Arthritis Therapy</span>
+      <span><i class="fas fa-baby"></i> Cerebral Palsy</span>
+      <span><i class="fas fa-house-medical"></i> Home Visits</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== Services Section ====== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label"><i class="fas fa-stethoscope"></i> Our Specialities</span>
+      <h2 class="section-title">
+        Comprehensive <span class="text-gradient">Physiotherapy Care</span>
+      </h2>
+      <p class="section-desc">From spinal disorders to sports injuries — every treatment plan is uniquely designed for your body, your condition and your recovery goals.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal" style="--delay:0s">
+        <div class="service-icon"><i class="fas fa-bone"></i></div>
+        <h3>Lumbar Disc Prolapse</h3>
+        <p>Targeted spinal therapy combining traction, manual mobilisation and core strengthening to relieve nerve compression.</p>
+        <div class="service-tag">Spine Care</div>
+      </div>
+
+      <div class="service-card featured reveal" style="--delay:.05s">
+        <div class="service-icon"><i class="fas fa-user-doctor"></i></div>
+        <h3>Cervical Disc Prolapse</h3>
+        <p>Gentle neck mobilisation, postural correction and electrotherapy to ease radiating pain and stiffness.</p>
+        <div class="service-tag">Spine Care</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.1s">
+        <div class="service-icon"><i class="fas fa-bolt"></i></div>
+        <h3>Sciatica</h3>
+        <p>McKenzie protocol, nerve gliding exercises and TENS therapy to calm sciatic nerve irritation.</p>
+        <div class="service-tag">Neurology</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.15s">
+        <div class="service-icon"><i class="fas fa-face-smile"></i></div>
+        <h3>Facial / Bell's Palsy</h3>
+        <p>Facial muscle re-education, electrical stimulation and PNF techniques for full functional recovery.</p>
+        <div class="service-tag">Neurology</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.2s">
+        <div class="service-icon"><i class="fas fa-hand-fist"></i></div>
+        <h3>Contracture Release</h3>
+        <p>Progressive stretching, splinting and soft-tissue mobilisation to restore range of motion.</p>
+        <div class="service-tag">Rehab</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.25s">
+        <div class="service-icon"><i class="fas fa-shoe-prints"></i></div>
+        <h3>Plantar Fasciitis</h3>
+        <p>Heel pain relief through ultrasound therapy, taping, fascia release and bespoke exercise plans.</p>
+        <div class="service-tag">Sports</div>
+      </div>
+
+      <div class="service-card featured reveal" style="--delay:.3s">
+        <div class="service-icon"><i class="fas fa-table-tennis-paddle-ball"></i></div>
+        <h3>Tennis Elbow</h3>
+        <p>Eccentric loading, deep tissue release and Cyriax technique for lateral epicondylitis recovery.</p>
+        <div class="service-tag">Sports</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.35s">
+        <div class="service-icon"><i class="fas fa-wheelchair"></i></div>
+        <h3>Arthritis & Osteoporosis</h3>
+        <p>Joint preservation programs, low-impact strengthening and pain-management modalities.</p>
+        <div class="service-tag">Geriatric</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.4s">
+        <div class="service-icon"><i class="fas fa-baby"></i></div>
+        <h3>Cerebral Palsy</h3>
+        <p>NDT/Bobath approach, gait training and family-centred home programs for paediatric patients.</p>
+        <div class="service-tag">Paediatric</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.45s">
+        <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+        <h3>Muscle & Joint Pain</h3>
+        <p>Comprehensive evaluation followed by manual therapy, dry needling and progressive loading.</p>
+        <div class="service-tag">Pain Care</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.5s">
+        <div class="service-icon"><i class="fas fa-person-cane"></i></div>
+        <h3>Osteoarthritis (OA)</h3>
+        <p>Knee, hip & shoulder OA management with pain modulation, mobility and functional training.</p>
+        <div class="service-tag">Geriatric</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.55s">
+        <div class="service-icon"><i class="fas fa-brain"></i></div>
+        <h3>Acute Ischemic Stroke</h3>
+        <p>Early neuro-rehabilitation with motor relearning, balance training and functional recovery protocols.</p>
+        <div class="service-tag">Neurology</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.6s">
+        <div class="service-icon"><i class="fas fa-person-running"></i></div>
+        <h3>ACL Injury</h3>
+        <p>Pre & post-surgical knee rehab — strengthening, proprioception and sport-specific return-to-play training.</p>
+        <div class="service-tag">Sports</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.65s">
+        <div class="service-icon"><i class="fas fa-shoe-prints"></i></div>
+        <h3>Ankle Sprain</h3>
+        <p>RICE protocol, manual mobilisation, balance retraining and progressive loading to prevent recurrence.</p>
+        <div class="service-tag">Sports</div>
+      </div>
+
+      <div class="service-card featured reveal" style="--delay:.7s">
+        <div class="service-icon"><i class="fas fa-snowflake"></i></div>
+        <h3>Frozen Shoulder</h3>
+        <p>Capsular stretching, joint mobilisation and graded exercises to restore full shoulder mobility.</p>
+        <div class="service-tag">Ortho</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.75s">
+        <div class="service-icon"><i class="fas fa-hand-back-fist"></i></div>
+        <h3>Rotator Cuff Injury</h3>
+        <p>Targeted scapular stabilisation, eccentric strengthening and pain modulation for shoulder recovery.</p>
+        <div class="service-tag">Sports</div>
+      </div>
+
+      <div class="service-card reveal" style="--delay:.8s">
+        <div class="service-icon"><i class="fas fa-hand"></i></div>
+        <h3>Carpal Tunnel Syndrome</h3>
+        <p>Nerve gliding, splinting, ergonomic correction and median nerve mobilisation for wrist & hand relief.</p>
+        <div class="service-tag">Neurology</div>
+      </div>
+
+      <div class="service-card cta-card reveal" style="--delay:.85s">
+        <div class="service-icon white"><i class="fas fa-house-chimney-medical"></i></div>
+        <h3>Home Visit Services</h3>
+        <p>Don't have to leave your home — receive professional physiotherapy in the comfort of your own space.</p>
+        <a href="#contact" class="cta-link">Book a home visit <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== About Section ====== -->
+<section class="about" id="about">
+  <div class="container about-container">
+    <div class="about-visual reveal">
+      <div class="about-img-stack">
+        <div class="img-bg-shape"></div>
+        <div class="about-main-img">
+          <img src="2.jpg" alt="Dr. Babita Kemiya at work" />
+          <div class="img-vignette"></div>
+        </div>
+        <div class="about-secondary-img">
+          <img src="1.jpg" alt="Dr. Babita Kemiya" />
+        </div>
+        <div class="experience-badge">
+          <div class="exp-num">4+</div>
+          <div class="exp-text">Years of<br/>Excellence</div>
+        </div>
+        <div class="signature-card">
+          <i class="fas fa-quote-left"></i>
+          <p>"Movement is medicine — every patient deserves a path back to their best life."</p>
+          <span>— Dr. Babita Kemiya</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-content reveal">
+      <span class="section-label"><i class="fas fa-user-doctor"></i> About the Doctor</span>
+      <h2 class="section-title">
+        Meet <span class="text-gradient">Dr. Babita Kemiya</span>
+      </h2>
+      <p class="lead">
+        A dedicated physiotherapist with a Bachelor of Physiotherapy (BPT) and a passion for restoring quality of life through evidence-based, patient-first care.
+      </p>
+
+      <p class="about-desc">
+        With expertise spanning orthopaedic, neurological, paediatric and geriatric physiotherapy, Dr. Babita has helped hundreds of patients overcome chronic pain, regain mobility and rebuild strength. Her approach blends modern manual therapy techniques with personalised rehabilitation plans — making every session purposeful and progressive.
+      </p>
+
+      <div class="credentials">
+        <div class="cred-item">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <strong>BPT — Bachelor of Physiotherapy</strong>
+            <span>Licensed Physical Therapist</span>
+          </div>
+        </div>
+        <div class="cred-item">
+          <i class="fas fa-award"></i>
+          <div>
+            <strong>Specialised Training</strong>
+            <span>Manual Therapy · Neuro-rehab · Sports Injury</span>
+          </div>
+        </div>
+        <div class="cred-item">
+          <i class="fas fa-hand-holding-heart"></i>
+          <div>
+            <strong>Patient-Centred Approach</strong>
+            <span>Custom plans · Continuous follow-up · Home visits</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-cta">
+        <a href="#contact" class="btn btn-primary">
+          <span>Schedule Appointment</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#services" class="btn btn-outline">View Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== Process Section ====== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label"><i class="fas fa-route"></i> Your Journey</span>
+      <h2 class="section-title">A Simple Path to <span class="text-gradient">Better Health</span></h2>
+      <p class="section-desc">Recovery begins with the right plan. Here's how we work together.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <div class="step-number">01</div>
+        <div class="step-icon"><i class="fas fa-clipboard-list"></i></div>
+        <h3>Assessment</h3>
+        <p>A thorough physical examination and history review to understand your condition completely.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-number">02</div>
+        <div class="step-icon"><i class="fas fa-file-medical"></i></div>
+        <h3>Diagnosis & Plan</h3>
+        <p>Personalised treatment roadmap aligned with your goals, lifestyle and medical history.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-number">03</div>
+        <div class="step-icon"><i class="fas fa-hand-holding-medical"></i></div>
+        <h3>Active Treatment</h3>
+        <p>Hands-on therapy, exercises and modalities delivered with care — at clinic or your home.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-number">04</div>
+        <div class="step-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Recovery & Prevention</h3>
+        <p>Progress tracking, education and home programs to keep you pain-free for the long term.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== CTA Banner ====== -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <div class="cta-content">
+        <span class="cta-tag"><i class="fas fa-house-medical"></i> Home Visits Available</span>
+        <h2>Quality care, delivered to <span class="text-gradient-light">your doorstep</span>.</h2>
+        <p>Whether mobility is limited or you simply prefer the comfort of home — Dr. Babita brings professional physiotherapy to you.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:+917697049341" class="btn btn-white">
+          <i class="fas fa-phone"></i>
+          <span>+91 76970 49341</span>
+        </a>
+        <a href="mailto:babitakemiya2018@gmail.com" class="btn btn-ghost-white">
+          <i class="fas fa-envelope"></i>
+          <span>Email Now</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== Testimonials ====== -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label"><i class="fas fa-quote-right"></i> Patient Stories</span>
+      <h2 class="section-title">Real Recovery, <span class="text-gradient">Real Results</span></h2>
+      <p class="section-desc">Hear from patients who reclaimed their lives through dedicated care.</p>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p>"After months of debilitating sciatica pain, Dr. Babita's approach was a complete game-changer. Within weeks I was walking pain-free. Her dedication is unmatched."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#0891b2,#0d9488);">RK</div>
+          <div>
+            <strong>Ramesh Kumar</strong>
+            <span>Sciatica Recovery</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal">
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p>"My mother couldn't walk after her stroke. Dr. Babita's home visits and patient guidance restored her independence. We're forever grateful."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#f59e0b,#ef4444);">PS</div>
+          <div>
+            <strong>Priya Sharma</strong>
+            <span>Family of Patient</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal">
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p>"Tennis elbow had me sidelined for 6 months. Dr. Babita's targeted therapy got me back on the court in weeks. Highly recommended for any sports injury."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#8b5cf6,#ec4899);">AV</div>
+          <div>
+            <strong>Arjun Verma</strong>
+            <span>Sports Injury</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== Contact Section ====== -->
+<section class="contact" id="contact">
+  <div class="container contact-container">
+    <div class="contact-info reveal">
+      <span class="section-label"><i class="fas fa-paper-plane"></i> Get In Touch</span>
+      <h2 class="section-title">Begin Your <span class="text-gradient">Recovery Today</span></h2>
+      <p class="section-desc">Ready to take the first step? Reach out for a consultation — clinic visits and home appointments both available.</p>
+
+      <div class="contact-cards">
+        <a href="tel:+917697049341" class="contact-card">
+          <div class="cc-icon"><i class="fas fa-phone-volume"></i></div>
+          <div>
+            <span>Call Direct</span>
+            <strong>+91 76970 49341</strong>
+          </div>
+          <i class="fas fa-arrow-up-right-from-square"></i>
+        </a>
+        <a href="mailto:babitakemiya2018@gmail.com" class="contact-card">
+          <div class="cc-icon"><i class="fas fa-envelope-open-text"></i></div>
+          <div>
+            <span>Email Us</span>
+            <strong>babitakemiya2018@gmail.com</strong>
+          </div>
+          <i class="fas fa-arrow-up-right-from-square"></i>
+        </a>
+        <a href="https://wa.me/917697049341" class="contact-card" target="_blank" rel="noopener">
+          <div class="cc-icon green-grad"><i class="fab fa-whatsapp"></i></div>
+          <div>
+            <span>WhatsApp</span>
+            <strong>Quick & Easy Chat</strong>
+          </div>
+          <i class="fas fa-arrow-up-right-from-square"></i>
+        </a>
+        <div class="contact-card static">
+          <div class="cc-icon orange-grad"><i class="fas fa-clock"></i></div>
+          <div>
+            <span>Working Hours</span>
+            <strong>Mon - Sun · 8:00 AM - 9:00 PM</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+      <h3>Send a Message</h3>
+      <p class="form-sub">We'll get back to you within 24 hours.</p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" name="name" required placeholder="Your name" />
+        </div>
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="tel" name="phone" required placeholder="+91 ..." />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" required placeholder="you@example.com" />
+      </div>
+
+      <div class="form-group">
+        <label>Service Required</label>
+        <select name="service" required>
+          <option value="">Select a service</option>
+          <option>Lumbar Disc Prolapse</option>
+          <option>Cervical Disc Prolapse</option>
+          <option>Sciatica</option>
+          <option>Facial / Bell's Palsy</option>
+          <option>Plantar Fasciitis</option>
+          <option>Tennis Elbow</option>
+          <option>Arthritis / Osteoporosis</option>
+          <option>Cerebral Palsy</option>
+          <option>Muscle / Joint Pain</option>
+          <option>Home Visit</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Tell us briefly about your condition</label>
+        <textarea name="message" rows="4" placeholder="Describe your symptoms, duration, etc..."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">
+        <i class="fab fa-whatsapp"></i>
+        <span>Send via WhatsApp</span>
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ====== Footer ====== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <a href="#home" class="logo logo-footer">
+        <div class="logo-icon"><i class="fas fa-heart-pulse"></i></div>
+        <div class="logo-text">
+          <span class="logo-name">Dr. Babita Kemiya</span>
+          <span class="logo-sub">PT (BPT)</span>
+        </div>
+      </a>
+      <p class="footer-about">Restoring movement, relieving pain, and renewing lives through evidence-based physiotherapy and compassionate care.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/917697049341" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Specialities</h4>
+      <ul>
+        <li><a href="#services">Disc Prolapse</a></li>
+        <li><a href="#services">Sciatica</a></li>
+        <li><a href="#services">Bell's Palsy</a></li>
+        <li><a href="#services">Tennis Elbow</a></li>
+        <li><a href="#services">Arthritis Care</a></li>
+        <li><a href="#services">Home Visits</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="contact-list">
+        <li><i class="fas fa-phone"></i> +91 76970 49341</li>
+        <li><i class="fas fa-envelope"></i> babitakemiya2018@gmail.com</li>
+        <li><i class="fas fa-clock"></i> Mon-Sun · 8 AM - 9 PM</li>
+        <li><i class="fas fa-house-medical"></i> Home Visits Available</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Dr. Babita Kemiya · Physiotherapy & Rehabilitation. All rights reserved.</p>
+    <p>Designed with <i class="fas fa-heart"></i> for better health.</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/917697049341" class="float-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="ripple"></span>
+</a>
+
+<!-- Back to top -->
+<button class="float-top" id="floatTop" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
